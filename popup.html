@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
     <title>URL Extractor</title>
     <script src="popup.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <textarea
       id="inputUrls"
       placeholder="Digite as URLs uma por linha"
-      style="width: 500px; height: 400px"
+      style="width: 700px; height: 400px"
     ></textarea>
     <button id="extractButton">Extract URLs</button>
+    <button id="copyExtractedButton">Copiar URLs Extraidas</button>
+
     <ul id="resultList"></ul>
   </body>
 </html>
